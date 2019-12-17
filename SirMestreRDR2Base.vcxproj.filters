@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source files\Hooks">
+      <UniqueIdentifier>{7e1b6f00-286e-4b9c-9c27-2b9143c11de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\NativesInvoker">
+      <UniqueIdentifier>{0e63d34d-e7b7-45ad-8913-3b2abcc4b571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Memory">
+      <UniqueIdentifier>{fa454dbd-cc21-4ec5-b9a4-5eee7e886aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Graphics">
+      <UniqueIdentifier>{59e32938-202e-4936-94bf-364eee4b3633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Features">
+      <UniqueIdentifier>{9a45cb07-b00d-4477-b41b-0d9cb37d80d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source files\Menu">
+      <UniqueIdentifier>{0b75427c-1de1-4ad4-9912-197511bdff38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>Source files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features.cpp">
+      <Filter>Source files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="menukeyboard.cpp">
+      <Filter>Source files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="menumemutils.cpp">
+      <Filter>Source files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="menusettings.cpp">
+      <Filter>Source files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="menuutils.cpp">
+      <Filter>Source files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="menucontrols.cpp">
+      <Filter>Source files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="paths.cpp">
+      <Filter>Source files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="mainmenu.cpp">
+      <Filter>Source files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="items.cpp">
+      <Filter>Source files\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>Source files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="crossmap.h">
+      <Filter>Source files\NativesInvoker</Filter>
+    </ClInclude>
+    <ClInclude Include="invoker.h">
+      <Filter>Source files\NativesInvoker</Filter>
+    </ClInclude>
+    <ClInclude Include="natives.h">
+      <Filter>Source files\NativesInvoker</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Source files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="features.h">
+      <Filter>Source files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="menukeyboard.h">
+      <Filter>Source files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="menumemutils.hpp">
+      <Filter>Source files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="menusettings.h">
+      <Filter>Source files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="menuutils.h">
+      <Filter>Source files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionalButton.h">
+      <Filter>Source files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Source files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="menucontrols.h">
+      <Filter>Source files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="paths.h">
+      <Filter>Source files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="mainmenu.h">
+      <Filter>Source files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="items.h">
+      <Filter>Source files\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
