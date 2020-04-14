@@ -1,13 +1,6 @@
-# SirMestreRDR2Base
-
-![alt text](https://raw.githubusercontent.com/SirMestre/SirMestreRDR2Base/master/base.png)
-
-* **SirMestre** - [SirMestre](https://github.com/SirMestre)
-
 ## Getting Started
 
 - This project is based on device9999's base
-- To use it, you need to compile it in 64 bits mode and inject your dll file.
 - This is a base menu, not a mod menu, this base is only for developers, not gamers.
 
 ## Built With
@@ -19,7 +12,6 @@
 - device9999
 - Revan600
 - Kiddion
-- Scriptkiddy1337
 
 ## License
 
